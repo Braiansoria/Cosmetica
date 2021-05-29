@@ -71,7 +71,7 @@
 			<div class="logo">
 				<a href="index.html">
 					<div class=" d-flex flex-row align-items-center justify-content-start">
-						<div class="nombre">Bmb cosmetica</div>
+						<div class="nombre">BMB cosmetica</div>
 					</div>
 				</a>	
 			</div>
@@ -86,7 +86,7 @@
 			</nav>
 			<div class="header_right d-flex flex-row align-items-center justify-content-start ml-auto">
 				<!-- Search -->
-				<div class="header_search">
+				<div class="header_search" style="display: none;">
 					<form action="#" id="header_search_form">
 						<input type="text" class="search_input" placeholder="Buscar " required="required">
 						<button class="header_search_button"><img src="images/search.png" alt=""></button>
@@ -328,21 +328,6 @@
 						<div class="section_title text-center">Nuestros Productos</div>
 					</div>
 				</div>
-				<div class="row page_nav_row">
-					<div class="col">
-						<div class="page_nav">
-							<ul class="d-flex flex-row align-items-start justify-content-center">
-								<li><a href="productos.html">Capilar</a></li>
-								<li><a href="productos.html">Rostro</a></li>
-								<li><a href="productos.html">Labios</a></li>		
-								<li><a href="productos.html">Corporales</a></li>								
-								<li><a href="productos.html">Dientales</a></li>
-								<li><a href="productos.html">Aceites</a></li>								
-						
-							</ul>
-						</div>
-					</div>
-				</div>
 				<div class="row products_row">
 					
 					<!-- Product -->
@@ -353,7 +338,8 @@
 								<div class="product_info d-flex flex-row align-items-start justify-content-center">
 									<div>
 										<div >
-											<div class="product_name text-center"><a href="product.html">Shampoo solido arcilla blanca</a></div>
+											<div class="product_name text-center"><a href="product.html">Shampoo solido arcilla blanca</a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -365,12 +351,12 @@
 					<!-- Product -->
 					<div class="col-xl-4 col-md-6">
 						<div class="product">
-							<div class="product_image"><img style="height: 390px;" src="assets/images/ch bco.JPG" alt=""></div>
+							<div class="product_image"><img style="height: 390px;" src="assets/images/ACEITE DE COCO.jpg" alt=""></div>
 							<div class="product_content ">
 								<div class="product_info d-flex flex-row align-items-start justify-content-center">
 									<div>
 										<div >
-											<div class="product_name text-center"><a href="product.html">Shampoo solido arcilla blanca</a></div>
+											<div class="product_name text-center"><a href="product.html">Aceite de coco</a></div>
 										</div>
 									</div>
 								</div>
@@ -450,7 +436,7 @@
 				</div>
 				<div class="row load_more_row">
 					<div class="col">
-						<div class="button load_more ml-auto mr-auto"><a href="productos.html">Ver Mas </a></div>
+						<div class="button load_more ml-auto mr-auto"><a href="productos.html">Ver Todos </a></div>
 					</div>
 				</div>
 			</div>
@@ -611,5 +597,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
 <script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
+<script>src="scrip.js"</script>
 </body>
 </html>

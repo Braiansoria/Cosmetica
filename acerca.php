@@ -71,7 +71,7 @@
 			<div class="logo">
 				<a href="index.html">
 					<div class=" d-flex flex-row align-items-center justify-content-start">
-						<div class="nombre">Bmb cosmetica</div>
+						<div class="nombre">BMB cosmetica</div>
 					</div>
 				</a>	
 			</div>
@@ -86,7 +86,7 @@
 			</nav>
 			<div class="header_right d-flex flex-row align-items-center justify-content-start ml-auto">
 				<!-- Search -->
-				<div class="header_search">
+				<div class="header_search" style="display: none;">
 					<form action="#" id="header_search_form">
 						<input type="text" class="search_input" placeholder="Buscar " required="required">
 						<button class="header_search_button"><img src="images/search.png" alt=""></button>

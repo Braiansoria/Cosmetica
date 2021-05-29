@@ -71,7 +71,7 @@
 			<div class="logo">
 				<a href="index.html">
 					<div class=" d-flex flex-row align-items-center justify-content-start">
-						<div class="nombre">Bmb cosmetica</div>
+						<div class="nombre">BMB cosmetica</div>
 					</div>
 				</a>	
 			</div>
@@ -86,7 +86,7 @@
 			</nav>
 			<div class="header_right d-flex flex-row align-items-center justify-content-start ml-auto">
 				<!-- Search -->
-				<div class="header_search">
+				<div class="header_search"  style="display: none;">
 					<form action="#" id="header_search_form">
 						<input type="text" class="search_input" placeholder="Buscar " required="required">
 						<button class="header_search_button"><img src="images/search.png" alt=""></button>
@@ -99,41 +99,43 @@
 
 
 
-
+<?php 
+include("correo.php");
+?>
 
 	<div class="container" style="padding-top: 200px;">
 		<h1 class="text-center" style="color: black;font-size: 2.5rem;margin-bottom: 20px;">Dejamos tus datos para contactarnos</h1>
-		<form class="text-center">
+		<form class="text-center" method="POST">
 				<div class="form-group">
-					<label for="validation01">NOMBRE</label>
-					<input type="text" class="form-control is-valid" id="validation01" 
-						   placeholder="nombre"  required>
+					<label for="validation01">Nombre</label>
+					<input type="text" class="form-control is-valid" name="nombre" id="validation01" 
+						   placeholder="Tu nombre"  required="">
 				</div>
 				<div class="form-group">
-					<label for="validation01">APELLIDO</label>
-					<input type="text" class="form-control is-valid" id="validation01" 
-						   placeholder="apellido" required>
+					<label for="validation01">Apellido</label>
+					<input type="text" class="form-control is-valid" name="apellido" id="validation01" 
+						   placeholder="Tu apellido" required="">
 				</div>
 			
 				<div class="form-group">
-					<label for="validation01">TELEFONO</label>
-					<input type="number" class="form-control is-valid" id="validation01" 
-						   placeholder="telefono " required>
+					<label for="validation01">Telefono</label>
+					<input type="number" class="form-control is-valid" name="telefono" id="validation01" 
+						   placeholder="Tu telefono " required="">
 				</div>
 				<div class="form-group">
 					<label for="validation01">Email</label>
-					<input type="email" class="form-control is-valid" id="validation01" 
-						   placeholder="email"  required>
+					<input type="email" class="form-control is-valid" name="email" id="validation01" 
+						   placeholder="Tu email"  required="">
 				</div>
 
 				<div class="form-outline">
-					<textarea class="form-control is-valid"  id="validation01" rows="4" placeholder="Tu mensaje"></textarea>
-					<label class="form-label" for="textAreaExample" >Mensaje</label>
+					<textarea class="form-control is-valid"  id="validation01" rows="4" placeholder="Tu mensaje :)"></textarea>
+					<label class="form-label" required="" for="textAreaExample" name="mensaje" >Mensaje</label>
 				  </div>
 
 
 
-				<button type="submit" class="btn btn-primary">Enviar</button>
+				<button type="submit" name="enviar" class="btn btn-primary">Enviar</button>
 			  </form>
 		  </form>
 
